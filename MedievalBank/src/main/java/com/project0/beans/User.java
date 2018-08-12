@@ -3,16 +3,15 @@ package com.project0.beans;
 import java.io.Serializable;
 
 public class User implements Serializable {
-
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = -2239719692898040299L;
+	private static final long serialVersionUID = 2239719692898040299L;
 	private String username;
 	private String password;
 	private String firstName;
 	private String lastName;
-
+	
 	public User() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -106,5 +105,6 @@ public class User implements Serializable {
 		return "User [username=" + username + ", password=" + password + ", firstName=" + firstName + ", lastName="
 				+ lastName + "]";
 	}
-
+	
+	
 }

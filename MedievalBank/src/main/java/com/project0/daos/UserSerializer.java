@@ -12,17 +12,22 @@ import com.project0.beans.User;
 
 public class UserSerializer implements UserDao {
 
+	
+
+	@Override
 	public void createUser(User u) {
 		if (u == null) {
 			return;
 		}
 		File f = new File("src/main/resources/users/" + u.getUsername() + ".txt");
+		System.out.println(f.getName());
 		if (f.exists()) {
 			return;
 		}
 		try {
 			f.createNewFile();
 		} catch (IOException e1) {
+			// TODO Auto-generated catch block
 			e1.printStackTrace();
 			return;
 		}
@@ -38,8 +43,10 @@ public class UserSerializer implements UserDao {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+
 	}
 
+	@Override
 	public User findByUsernameAndPassword(String username, String password) {
 		// verify that what was passed in is not null
 		if (username == null || password == null) {
@@ -58,22 +65,24 @@ public class UserSerializer implements UserDao {
 
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
-//					e.printStackTrace();
+//			e.printStackTrace();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
-//					e.printStackTrace();
+//			e.printStackTrace();
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
-//					e.printStackTrace();
+//			e.printStackTrace();
 		}
 		return null;
 	}
 
+	@Override
 	public void updateUser(User u) {
 		// TODO Auto-generated method stub
 
 	}
 
+	@Override
 	public void deleteUser(User u) {
 		// TODO Auto-generated method stub
 

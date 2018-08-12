@@ -4,12 +4,11 @@ import java.util.Scanner;
 
 import com.project0.beans.User;
 import com.project0.daos.UserDao;
-import com.project0.screens.LoginScreen;
 
 public class RegisterUserScreen implements Screen {
 	private Scanner scan = new Scanner(System.in);
 	private UserDao ud = UserDao.currentUserDao;
-	
+
 	@Override
 	public Screen start() {
 		User u = new User();
@@ -21,7 +20,9 @@ public class RegisterUserScreen implements Screen {
 		u.setFirstName(scan.nextLine());
 		System.out.println("Enter last name");
 		u.setLastName(scan.nextLine());
-		
+
+		ud.createUser(u);
+
 		return new LoginScreen();
 	}
 

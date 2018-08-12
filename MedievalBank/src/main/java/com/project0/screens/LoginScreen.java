@@ -3,15 +3,14 @@ package com.project0.screens;
 import java.util.Scanner;
 
 import com.project0.beans.User;
-import com.project0.daos.UserDao;
-//import com.project0.screens.HomeScreen;
+import com.project0.screens.HomeScreen;
 import com.project0.screens.RegisterUserScreen;
 import com.project0.screens.Screen;
+import com.project0.daos.UserDao;
 
 public class LoginScreen implements Screen {
 	private Scanner scan = new Scanner(System.in);
 	private UserDao ud = UserDao.currentUserDao;
-	
 
 	@Override
 	public Screen start() {
@@ -20,7 +19,7 @@ public class LoginScreen implements Screen {
 		if ("register".equalsIgnoreCase(username)) {
 			return new RegisterUserScreen();
 		}
-		
+
 		System.out.println("Enter Password: ");
 		String password = scan.nextLine();
 
@@ -32,3 +31,5 @@ public class LoginScreen implements Screen {
 		System.out.println("unable to login");
 		return this;
 	}
+
+}
