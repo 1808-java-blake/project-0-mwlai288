@@ -2,34 +2,61 @@ package com.project0.screens;
 
 import java.util.Scanner;
 
+import com.project0.beans.User;
+
 public class HomeScreen implements Screen {
-	private Scanner scan = new Scanner (System.in);
-	
+
+	public static User currentUser;
+	private Scanner scan = new Scanner(System.in);
+
 	public Screen start() {
-		System.out.println("Welcome friend. What Wouldst Thou like to Dost?");
-		System.out.println("Deposit coin");
-		System.out.println("Withdraw coin");
-		System.out.println("View Coin Amount");
-		System.out.println("Transaction History");
+		User u = currentUser;
+		System.out.println("Welcome friend. What wouldst thou like to dost?");
+		System.out.println("Enter 1 to deposit coin");
+		System.out.println("Enter 2 to withdraw coin");
+		System.out.println("Enter 3 to view transaction history");
+		System.out.println("Enter 4 to view account balance");
 		String selection = scan.nextLine();
 		switch (selection) {
 		case "1":
-			System.out.println("selected 1 not yet implemented that screen");
+			Screen ds = new DepositScreen();
+			ds.start();
 			break;
+
 		case "2":
-			System.out.println("selected 2 not yet implemented that screen");
+			Screen ws = new WithdrawScreen();
+			ws.start();
 			break;
-		case "3":
-			System.out.println("selected 3 not yet implemented that screen");
-			break;
-		case "4":
-			System.out.println("selected 4 not yet implemented that screen");
-			break;
+
+//			case "3":
+//				
+//				Screen ths = new TransactionHistoryScreen();
+//				ths.start();
+//				
+//				break;
+//
+//			case "4":
+//				
+//				Screen abs = new AccountBalanceScreen();
+//				abs.start();
+//				
+//				break;
+//				
+//			case "5":
+//				
+//				Screen wires = new WireScreen();
+//				wires.start();
+//				
+//				break;
+//			
 		default:
+
 			break;
+
 		}
 
 		return this;
+
 	}
 
 }
