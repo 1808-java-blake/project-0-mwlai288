@@ -72,37 +72,13 @@ public class UserSerializer implements UserDao {
 	}
 
 	@Override
-	public User findByUsername(String username) {
-		// verify that what was passed in is not null
-		if (username == null) {
-			return null;
-		}
-		try (ObjectInputStream ois = new ObjectInputStream(
-				new FileInputStream("src/main/resources/user/" + username + ".txt"))) {
-			User u = (User) ois.readObject(); // retrieve the user if it can
-			return u;
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-//			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-//			e.printStackTrace();
-		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-//			e.printStackTrace();
-		}
-		return null;
-	}
-
-	@Override
 	public void updateUser(User u) {
-		if (u== null) {
+		if (u == null) {
 			return;
 		}
 		File f = new File("src/main/resources/user/" + u.getUsername() + ".txt");
-		
-		try (ObjectOutputStream oos = new ObjectOutputStream(
-				new FileOutputStream(f))) {
+
+		try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(f))) {
 			oos.writeObject(u);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

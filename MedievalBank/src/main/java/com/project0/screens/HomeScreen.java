@@ -28,27 +28,18 @@ public class HomeScreen implements Screen {
 			ws.start();
 			break;
 
-//			case "3":
-//				
-//				Screen ths = new TransactionHistoryScreen();
-//				ths.start();
-//				
-//				break;
-//
-//			case "4":
-//				
-//				Screen abs = new AccountBalanceScreen();
-//				abs.start();
-//				
-//				break;
-//				
-//			case "5":
-//				
-//				Screen wires = new WireScreen();
-//				wires.start();
-//				
-//				break;
-//			
+		case "3":
+			Screen th = new TransactionHistoryScreen();
+			th.start();
+			break;
+
+			case "4":
+				
+				Screen ab = new AccountBalance();
+				ab.start();
+				
+				break;
+
 		default:
 
 			break;

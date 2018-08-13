@@ -10,8 +10,6 @@ public interface UserDao {
 
 	User findByUsernameAndPassword(String username, String password);
 
-	User findByUsername(String username);
-
 	void updateUser(User u);
 
 	void deleteUser(User u);

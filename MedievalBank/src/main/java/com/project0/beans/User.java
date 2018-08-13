@@ -14,13 +14,14 @@ public class User implements Serializable {
 	private String lastName;
 	private double balance;
 	private boolean admin;
+	private String transactionHistory;
 
 	public User() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public User(String username, String password, String firstName, String lastName, double balance, boolean admin) {
+	public User(String username, String password, String firstName, String lastName, double balance, boolean admin, String transactionHistory) {
 		super();
 		this.username = username;
 		this.password = password;
@@ -28,7 +29,9 @@ public class User implements Serializable {
 		this.lastName = lastName;
 		this.balance = balance;
 		this.admin = admin;
+		this.transactionHistory = transactionHistory;
 	}
+
 
 	public String getUsername() {
 		return username;
@@ -77,10 +80,20 @@ public class User implements Serializable {
 	public void setAdmin(boolean admin) {
 		this.admin = admin;
 	}
+	
+	public String getTransactionHistory() {
+		return transactionHistory;
+	}
+
+	public void setTransactionHistory(String depositAmount) {
+		this.transactionHistory = this.transactionHistory + ',' + depositAmount ;
+	}
+
 
 	public static long getSerialversionuid() {
 		return serialVersionUID;
 	}
+	
 
 	@Override
 	public int hashCode() {
@@ -93,6 +106,7 @@ public class User implements Serializable {
 		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
 		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
 		result = prime * result + ((password == null) ? 0 : password.hashCode());
+		result = prime * result + ((transactionHistory == null) ? 0 : transactionHistory.hashCode());
 		result = prime * result + ((username == null) ? 0 : username.hashCode());
 		return result;
 	}
@@ -125,6 +139,11 @@ public class User implements Serializable {
 				return false;
 		} else if (!password.equals(other.password))
 			return false;
+		if (transactionHistory == null) {
+			if (other.transactionHistory != null)
+				return false;
+		} else if (!transactionHistory.equals(other.transactionHistory))
+			return false;
 		if (username == null) {
 			if (other.username != null)
 				return false;
@@ -136,7 +155,7 @@ public class User implements Serializable {
 	@Override
 	public String toString() {
 		return "User [username=" + username + ", password=" + password + ", firstName=" + firstName + ", lastName="
-				+ lastName + ", balance=" + balance + ", admin=" + admin + "]";
+				+ lastName + ", balance=" + balance + ", admin=" + admin + ", transactionHistory=" + transactionHistory
+				+ "]";
 	}
-
 }
