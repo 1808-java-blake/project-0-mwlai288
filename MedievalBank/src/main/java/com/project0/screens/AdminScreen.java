@@ -3,14 +3,14 @@ package com.project0.screens;
 import java.util.Scanner;
 
 import com.project0.beans.User;
+import com.project0.daos.UserDao;
 
-public class HomeScreen implements Screen {
-
-	public static User currentUser;
+public class AdminScreen implements Screen {
 	private Scanner scan = new Scanner(System.in);
+	private UserDao ud = UserDao.currentUserDao;
+	private User user;
 
 	public Screen start() {
-
 		System.out.println(" \n"
 				+ "███╗   ███╗███████╗██████╗ ██╗███████╗██╗   ██╗ █████╗ ██╗         ██████╗  █████╗ ███╗   ██╗██╗  ██╗\n"
 				+ "████╗ ████║██╔════╝██╔══██╗██║██╔════╝██║   ██║██╔══██╗██║         ██╔══██╗██╔══██╗████╗  ██║██║ ██╔╝\n"
@@ -20,38 +20,13 @@ public class HomeScreen implements Screen {
 				+ "╚═╝     ╚═╝╚══════╝╚═════╝ ╚═╝╚══════╝  ╚═══╝  ╚═╝  ╚═╝╚══════╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝\n"
 				+ "                                                                                                     \n"
 				+ " ");
-		System.out.println("Welcome friend. What wouldst thou like to dost?");
-		System.out.println("Enter 1 to deposit coin");
-		System.out.println("Enter 2 to withdraw coin");
-		System.out.println("Enter 3 to view transaction history");
-		System.out.println("Enter 4 to view account balance");
-		String selection = scan.nextLine();
-		switch (selection) {
-		case "1":
-			Screen ds = new DepositScreen();
-			ds.start();
-			break;
-
-		case "2":
-			Screen ws = new WithdrawScreen();
-			ws.start();
-			break;
-
-		case "3":
-			Screen th = new TransactionHistoryScreen();
-			th.start();
-			break;
-
-		case "4":
-			Screen ab = new AccountBalance();
-			ab.start();
-			break;
-		default:
-			break;
-		}
-
+		
+		System.out.println("Adminstrator");
+		System.out.println("Find a user by username and display balance and transaction history");
+		String username = scan.nextLine();
+		user = ud.findByUsername(username);
+		System.out.println("Balance is: " + user.getBalance() + " and Transaction History is: " + user.getTransactionHistory());
 		return this;
-
 	}
 
 }

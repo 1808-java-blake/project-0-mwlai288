@@ -21,7 +21,7 @@ public class DepositScreen implements Screen {
 		String depositAmount = scan.nextLine();
 		currentUser.setTransactionHistory(depositAmount);
 		
-		System.out.println(depositAmount + currentUser.getBalance());
+//		System.out.println(depositAmount + currentUser.getBalance());
 		System.out.println(balance = Double.valueOf(depositAmount) + currentUser.getBalance());
 		currentUser.setBalance(balance);
 		ud.updateUser(currentUser);

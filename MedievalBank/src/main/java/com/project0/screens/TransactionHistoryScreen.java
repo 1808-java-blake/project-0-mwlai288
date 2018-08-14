@@ -16,9 +16,8 @@ public class TransactionHistoryScreen implements Screen {
 	public Screen start() {
 		User currentUser = loggedInUser.getCurrent();
 		System.out.println("View transaction history");
-
-		System.out.println("You withdrew " + currentUser.getTransactionHistory());
-
+		System.out.println("Deposit and Withdrawals: " + currentUser.getTransactionHistory().replaceAll("null,", ""));
+	
 		return this;
 
 	}
