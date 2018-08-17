@@ -2,11 +2,10 @@ package com.project0.screens;
 
 import java.util.Scanner;
 
-import com.project0.beans.User;
+import com.project0.util.AppState;
 
 public class HomeScreen implements Screen {
-
-	public static User currentUser;
+	private AppState state = AppState.state;
 	private Scanner scan = new Scanner(System.in);
 
 	public Screen start() {
@@ -27,25 +26,25 @@ public class HomeScreen implements Screen {
 		System.out.println("Enter 4 to view account balance");
 		String selection = scan.nextLine();
 		switch (selection) {
-		case "1":
-			Screen ds = new DepositScreen();
-			ds.start();
-			break;
+//		case "1":
+//			Screen ds = new DepositScreen();
+//			ds.start();
+//			break;
 
-		case "2":
-			Screen ws = new WithdrawScreen();
-			ws.start();
-			break;
-
-		case "3":
-			Screen th = new TransactionHistoryScreen();
-			th.start();
-			break;
-
-		case "4":
-			Screen ab = new AccountBalance();
-			ab.start();
-			break;
+//		case "2":
+//			Screen ws = new WithdrawScreen();
+//			ws.start();
+//			break;
+//
+//		case "3":
+//			Screen th = new TransactionHistoryScreen();
+//			th.start();
+//			break;
+//
+//		case "4":
+//			Screen ab = new AccountBalance();
+//			ab.start();
+//			break;
 		default:
 			break;
 		}

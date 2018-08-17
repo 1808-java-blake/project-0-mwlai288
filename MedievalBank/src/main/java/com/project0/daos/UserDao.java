@@ -3,17 +3,16 @@ package com.project0.daos;
 import com.project0.beans.User;
 
 public interface UserDao {
-
-	public static final UserDao currentUserDao = new UserSerializer();
-
-	void createUser(User u);
-
-	User findByUsernameAndPassword(String username, String password);
+	public static final UserDao currentUserDao = new UserDaoJdbc();
 	
-	User findByUsername(String username);
-
+	/**
+	 * Takes in a user object and will persist that user
+	 * 
+	 * @param u
+	 */
+	void createUser(User u);
+	User findByUsernameAndPassword(String username, String password);
 	void updateUser(User u);
-
 	void deleteUser(User u);
 
 }

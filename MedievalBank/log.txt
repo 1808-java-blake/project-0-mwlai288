@@ -1,0 +1,15 @@
+2018-08-17 11:35:30 DEBUG LoginScreen:19 - started login screen
+2018-08-17 11:40:16 DEBUG LoginScreen:19 - started login screen
+2018-08-17 11:40:22 TRACE LoginScreen:22 - username = mwlai
+2018-08-17 11:40:28 DEBUG LoginScreen:30 - received users credentials
+2018-08-17 11:40:29 DEBUG LoginScreen:19 - started login screen
+2018-08-17 11:41:40 DEBUG LoginScreen:19 - started login screen
+2018-08-17 11:42:19 DEBUG LoginScreen:19 - started login screen
+2018-08-17 11:42:23 TRACE LoginScreen:22 - username = mwlai
+2018-08-17 11:42:24 DEBUG LoginScreen:30 - received users credentials
+2018-08-17 11:42:25 DEBUG LoginScreen:19 - started login screen
+2018-08-17 11:42:47 DEBUG LoginScreen:19 - started login screen
+2018-08-17 11:42:49 TRACE LoginScreen:22 - username = mwlai
+2018-08-17 11:42:50 DEBUG LoginScreen:30 - received users credentials
+2018-08-17 11:42:51 INFO  LoginScreen:34 - user succefully logged in
+2018-08-17 11:42:51 INFO  LoginScreen:35 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai, age=30]

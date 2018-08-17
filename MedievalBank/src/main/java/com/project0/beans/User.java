@@ -1,34 +1,37 @@
 package com.project0.beans;
 
-import java.io.Serializable;
+import com.project0.beans.User;
 
-public class User implements Serializable {
+public class User {
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 8395987793561819947L;
+	private int id;
 	private String username;
 	private String password;
 	private String firstName;
 	private String lastName;
-	private double balance;
-	private String transactionHistory;
+	private int age;
 
 	public User() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public User(String username, String password, String firstName, String lastName, double balance, boolean admin,
-			String transactionHistory) {
+	public User(int id, String username, String password, String firstName, String lastName, int age) {
 		super();
+		this.id = id;
 		this.username = username;
 		this.password = password;
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.balance = balance;
-		this.transactionHistory = transactionHistory;
+		this.age = age;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 
 	public String getUsername() {
@@ -63,37 +66,23 @@ public class User implements Serializable {
 		this.lastName = lastName;
 	}
 
-	public double getBalance() {
-		return balance;
+	public int getAge() {
+		return age;
 	}
 
-	public void setBalance(double balance) {
-		this.balance = balance;
-	}
-
-	public String getTransactionHistory() {
-		return transactionHistory;
-	}
-
-	public void setTransactionHistory(String depositAmount) {
-		this.transactionHistory = this.transactionHistory + ',' + depositAmount;
-	}
-
-	public static long getSerialversionuid() {
-		return serialVersionUID;
+	public void setAge(int age) {
+		this.age = age;
 	}
 
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		long temp;
-		temp = Double.doubleToLongBits(balance);
-		result = prime * result + (int) (temp ^ (temp >>> 32));
+		result = prime * result + age;
 		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
+		result = prime * result + id;
 		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
 		result = prime * result + ((password == null) ? 0 : password.hashCode());
-		result = prime * result + ((transactionHistory == null) ? 0 : transactionHistory.hashCode());
 		result = prime * result + ((username == null) ? 0 : username.hashCode());
 		return result;
 	}
@@ -107,12 +96,14 @@ public class User implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		User other = (User) obj;
-		if (Double.doubleToLongBits(balance) != Double.doubleToLongBits(other.balance))
+		if (age != other.age)
 			return false;
 		if (firstName == null) {
 			if (other.firstName != null)
 				return false;
 		} else if (!firstName.equals(other.firstName))
+			return false;
+		if (id != other.id)
 			return false;
 		if (lastName == null) {
 			if (other.lastName != null)
@@ -124,11 +115,6 @@ public class User implements Serializable {
 				return false;
 		} else if (!password.equals(other.password))
 			return false;
-		if (transactionHistory == null) {
-			if (other.transactionHistory != null)
-				return false;
-		} else if (!transactionHistory.equals(other.transactionHistory))
-			return false;
 		if (username == null) {
 			if (other.username != null)
 				return false;
@@ -139,8 +125,8 @@ public class User implements Serializable {
 
 	@Override
 	public String toString() {
-		return "User [username=" + username + ", password=" + password + ", firstName=" + firstName + ", lastName="
-				+ lastName + ", balance=" + balance + ", transactionHistory=" + transactionHistory + "]";
+		return "User [id=" + id + ", username=" + username + ", password=" + password + ", firstName=" + firstName
+				+ ", lastName=" + lastName + ", age=" + age + "]";
 	}
 
 }
