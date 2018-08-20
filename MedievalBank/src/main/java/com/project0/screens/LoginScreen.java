@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 
+import com.project0.beans.BankAccount;
 import com.project0.beans.User;
 import com.project0.daos.UserDao;
 import com.project0.util.AppState;
@@ -33,6 +34,7 @@ public class LoginScreen implements Screen {
 			state.setCurrentUser(currentUser);
 			log.info("user succefully logged in");
 			log.info("welcome" + currentUser);
+			
 			return new HomeScreen();
 		}
 

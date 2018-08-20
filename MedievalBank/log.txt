@@ -13,3 +13,208 @@
 2018-08-17 11:42:50 DEBUG LoginScreen:30 - received users credentials
 2018-08-17 11:42:51 INFO  LoginScreen:34 - user succefully logged in
 2018-08-17 11:42:51 INFO  LoginScreen:35 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai, age=30]
+2018-08-19 20:51:30 DEBUG LoginScreen:19 - started login screen
+2018-08-19 20:51:32 TRACE LoginScreen:22 - username = mwlai
+2018-08-19 20:51:34 DEBUG LoginScreen:30 - received users credentials
+2018-08-19 20:51:34 DEBUG LoginScreen:19 - started login screen
+2018-08-19 20:53:36 DEBUG LoginScreen:19 - started login screen
+2018-08-19 20:53:39 TRACE LoginScreen:22 - username = mwlai
+2018-08-19 20:53:40 DEBUG LoginScreen:30 - received users credentials
+2018-08-19 20:53:41 INFO  LoginScreen:34 - user succefully logged in
+2018-08-19 20:53:41 INFO  LoginScreen:35 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai, age=30]
+2018-08-19 22:00:41 DEBUG LoginScreen:19 - started login screen
+2018-08-19 22:00:45 TRACE LoginScreen:22 - username = mwlai
+2018-08-19 22:00:46 DEBUG LoginScreen:30 - received users credentials
+2018-08-19 22:00:46 INFO  LoginScreen:34 - user succefully logged in
+2018-08-19 22:00:46 INFO  LoginScreen:35 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai, age=30]
+2018-08-19 22:01:18 DEBUG LoginScreen:19 - started login screen
+2018-08-19 22:01:21 TRACE LoginScreen:22 - username = mwlai
+2018-08-19 22:01:22 DEBUG LoginScreen:30 - received users credentials
+2018-08-19 22:01:22 INFO  LoginScreen:34 - user succefully logged in
+2018-08-19 22:01:22 INFO  LoginScreen:35 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai, age=30]
+2018-08-19 22:13:40 DEBUG LoginScreen:19 - started login screen
+2018-08-19 22:13:43 TRACE LoginScreen:22 - username = mwlai
+2018-08-19 22:13:44 DEBUG LoginScreen:30 - received users credentials
+2018-08-19 22:13:45 INFO  LoginScreen:34 - user succefully logged in
+2018-08-19 22:13:45 INFO  LoginScreen:35 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai, age=30]
+2018-08-19 22:29:07 DEBUG LoginScreen:19 - started login screen
+2018-08-19 22:29:09 TRACE LoginScreen:22 - username = mwlai
+2018-08-19 22:29:10 DEBUG LoginScreen:30 - received users credentials
+2018-08-19 22:29:11 INFO  LoginScreen:34 - user succefully logged in
+2018-08-19 22:29:11 INFO  LoginScreen:35 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai, age=30]
+2018-08-19 22:29:56 DEBUG LoginScreen:19 - started login screen
+2018-08-19 22:29:58 TRACE LoginScreen:22 - username = mwlai
+2018-08-19 22:29:59 DEBUG LoginScreen:30 - received users credentials
+2018-08-19 22:29:59 INFO  LoginScreen:34 - user succefully logged in
+2018-08-19 22:29:59 INFO  LoginScreen:35 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai, age=30]
+2018-08-19 22:33:50 DEBUG LoginScreen:19 - started login screen
+2018-08-19 22:33:53 TRACE LoginScreen:22 - username = mwlai
+2018-08-19 22:33:54 DEBUG LoginScreen:30 - received users credentials
+2018-08-19 22:33:55 INFO  LoginScreen:34 - user succefully logged in
+2018-08-19 22:33:55 INFO  LoginScreen:35 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai, age=30]
+2018-08-19 22:39:15 DEBUG LoginScreen:20 - started login screen
+2018-08-19 22:39:17 TRACE LoginScreen:23 - username = mwlai
+2018-08-19 22:39:19 DEBUG LoginScreen:31 - received users credentials
+2018-08-19 22:39:19 INFO  LoginScreen:35 - user succefully logged in
+2018-08-19 22:39:19 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai, age=30]
+2018-08-19 22:40:36 DEBUG LoginScreen:20 - started login screen
+2018-08-19 22:40:37 TRACE LoginScreen:23 - username = mwlai
+2018-08-19 22:40:38 DEBUG LoginScreen:31 - received users credentials
+2018-08-19 22:40:39 INFO  LoginScreen:35 - user succefully logged in
+2018-08-19 22:40:39 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai, age=30]
+2018-08-19 22:40:59 DEBUG LoginScreen:20 - started login screen
+2018-08-19 22:41:00 TRACE LoginScreen:23 - username = mwlai
+2018-08-19 22:41:01 DEBUG LoginScreen:31 - received users credentials
+2018-08-19 22:41:02 INFO  LoginScreen:35 - user succefully logged in
+2018-08-19 22:41:02 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai, age=30]
+2018-08-19 23:04:30 DEBUG LoginScreen:20 - started login screen
+2018-08-19 23:04:38 DEBUG LoginScreen:20 - started login screen
+2018-08-19 23:04:40 TRACE LoginScreen:23 - username = mwlia
+2018-08-19 23:04:41 DEBUG LoginScreen:31 - received users credentials
+2018-08-19 23:04:41 WARN  UserDaoJdbc:68 - failed to find user with provided credentials from the db
+2018-08-19 23:04:41 DEBUG LoginScreen:20 - started login screen
+2018-08-19 23:04:44 TRACE LoginScreen:23 - username = mwlai
+2018-08-19 23:04:45 DEBUG LoginScreen:31 - received users credentials
+2018-08-19 23:04:45 INFO  LoginScreen:35 - user succefully logged in
+2018-08-19 23:04:45 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai, age=30]
+2018-08-19 23:05:51 DEBUG LoginScreen:20 - started login screen
+2018-08-19 23:05:53 TRACE LoginScreen:23 - username = mwlai
+2018-08-19 23:05:54 DEBUG LoginScreen:31 - received users credentials
+2018-08-19 23:05:55 INFO  LoginScreen:35 - user succefully logged in
+2018-08-19 23:05:55 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai, age=30]
+2018-08-19 23:32:09 DEBUG LoginScreen:20 - started login screen
+2018-08-19 23:32:11 TRACE LoginScreen:23 - username = mwlai
+2018-08-19 23:32:13 DEBUG LoginScreen:31 - received users credentials
+2018-08-19 23:32:13 INFO  LoginScreen:35 - user succefully logged in
+2018-08-19 23:32:13 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai, age=30]
+2018-08-19 23:34:58 DEBUG LoginScreen:20 - started login screen
+2018-08-19 23:35:01 TRACE LoginScreen:23 - username = flash
+2018-08-19 23:35:02 DEBUG LoginScreen:31 - received users credentials
+2018-08-19 23:35:03 INFO  LoginScreen:35 - user succefully logged in
+2018-08-19 23:35:03 INFO  LoginScreen:36 - welcomeUser [id=3, username=flash, password=null, firstName=barry, lastName=allen, age=25]
+2018-08-20 13:09:20 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:09:23 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 13:09:25 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 13:09:26 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:11:34 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:11:41 TRACE LoginScreen:23 - username = mwlai	
+2018-08-20 13:11:42 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 13:11:42 WARN  UserDaoJdbc:66 - failed to find user with provided credentials from the db
+2018-08-20 13:11:42 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:11:45 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 13:11:46 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 13:11:47 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:12:12 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:12:16 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 13:12:17 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 13:12:17 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 13:12:17 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 13:15:30 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:15:33 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 13:15:34 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 13:15:34 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 13:15:34 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 13:16:22 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:16:23 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 13:16:24 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 13:16:25 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 13:16:25 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 13:22:10 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:22:12 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 13:22:13 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 13:22:14 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 13:22:14 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 13:22:53 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:22:55 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 13:22:56 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 13:22:57 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 13:22:57 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 13:38:05 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:38:08 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 13:38:09 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 13:38:11 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 13:38:11 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 13:47:57 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:47:59 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 13:48:00 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 13:48:00 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 13:48:00 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 13:49:12 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:49:15 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 13:49:17 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 13:49:18 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 13:49:18 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 13:53:59 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:54:01 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 13:54:02 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 13:54:02 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 13:54:02 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 13:54:07 ERROR BankAccountDaoJdbc:109 - ERROR: column "transactionhistory" of relation "account" does not exist
+  Position: 34
+2018-08-20 13:54:07 ERROR BankAccountDaoJdbc:111 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 13:54:07 ERROR BankAccountDaoJdbc:111 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 13:54:07 ERROR BankAccountDaoJdbc:111 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 13:54:07 ERROR BankAccountDaoJdbc:111 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 13:54:07 ERROR BankAccountDaoJdbc:111 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 13:54:07 ERROR BankAccountDaoJdbc:111 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 13:54:07 ERROR BankAccountDaoJdbc:111 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 13:54:07 ERROR BankAccountDaoJdbc:111 - com.project0.daos.BankAccountDaoJdbc.updateUser(BankAccountDaoJdbc.java:105)
+2018-08-20 13:54:07 ERROR BankAccountDaoJdbc:111 - com.project0.screens.DepositScreen.start(DepositScreen.java:39)
+2018-08-20 13:54:07 ERROR BankAccountDaoJdbc:111 - com.project0.screens.HomeScreen.start(HomeScreen.java:36)
+2018-08-20 13:54:07 ERROR BankAccountDaoJdbc:111 - com.project0.launcher.Launcher.main(Launcher.java:10)
+2018-08-20 13:54:07 WARN  BankAccountDaoJdbc:113 - failed to update user
+2018-08-20 13:54:24 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:54:26 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 13:54:27 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 13:54:28 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 13:54:28 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 13:55:45 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:55:48 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 13:55:52 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 13:55:53 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 13:55:53 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 13:55:57 ERROR BankAccountDaoJdbc:109 - ERROR: column "transactionhistory" of relation "account" does not exist
+  Position: 34
+2018-08-20 13:55:57 ERROR BankAccountDaoJdbc:111 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 13:55:57 ERROR BankAccountDaoJdbc:111 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 13:55:57 ERROR BankAccountDaoJdbc:111 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 13:55:57 ERROR BankAccountDaoJdbc:111 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 13:55:57 ERROR BankAccountDaoJdbc:111 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 13:55:57 ERROR BankAccountDaoJdbc:111 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 13:55:57 ERROR BankAccountDaoJdbc:111 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 13:55:57 ERROR BankAccountDaoJdbc:111 - com.project0.daos.BankAccountDaoJdbc.updateUser(BankAccountDaoJdbc.java:105)
+2018-08-20 13:55:57 ERROR BankAccountDaoJdbc:111 - com.project0.screens.DepositScreen.start(DepositScreen.java:40)
+2018-08-20 13:55:57 ERROR BankAccountDaoJdbc:111 - com.project0.screens.HomeScreen.start(HomeScreen.java:36)
+2018-08-20 13:55:57 ERROR BankAccountDaoJdbc:111 - com.project0.launcher.Launcher.main(Launcher.java:10)
+2018-08-20 13:55:57 WARN  BankAccountDaoJdbc:113 - failed to update user
+2018-08-20 13:57:20 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:57:23 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 13:57:24 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 13:57:24 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 13:57:24 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 13:57:28 TRACE BankAccountDaoJdbc:106 - 1 account updated
+2018-08-20 13:58:55 TRACE BankAccountDaoJdbc:106 - 1 account updated
+2018-08-20 13:59:02 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:59:03 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 13:59:04 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 13:59:05 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 13:59:05 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 13:59:12 TRACE BankAccountDaoJdbc:106 - 1 account updated
+2018-08-20 14:02:28 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:02:30 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 14:02:31 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 14:02:31 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 14:02:31 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 14:02:36 TRACE BankAccountDaoJdbc:107 - 1 account updated
+2018-08-20 14:03:31 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:03:42 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 14:03:43 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 14:03:43 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 14:03:43 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 14:03:54 TRACE BankAccountDaoJdbc:107 - 1 account updated
+2018-08-20 14:04:10 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:04:12 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 14:04:16 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 14:04:17 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 14:04:17 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 14:04:21 TRACE BankAccountDaoJdbc:107 - 1 account updated
