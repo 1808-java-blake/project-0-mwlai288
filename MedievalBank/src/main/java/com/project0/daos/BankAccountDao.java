@@ -10,6 +10,8 @@ public interface BankAccountDao {
 
 	BankAccount getBankAccount(int id);
 
+	void createBankAccount(int banana);
+	
 	int setBankAccount(BankAccount ba);
 
 	void updateUser(BankAccount ba);

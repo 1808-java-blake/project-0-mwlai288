@@ -36,11 +36,11 @@ public class HomeScreen implements Screen {
 			ds.start();
 			break;
 
-//		case "2":
-//			Screen ws = new WithdrawScreen();
-//			ws.start();
-//			break;
-//
+		case "2":
+			Screen ws = new WithdrawScreen();
+			ws.start();
+			break;
+
 //		case "3":
 //			Screen th = new TransactionHistoryScreen();
 //			th.start();

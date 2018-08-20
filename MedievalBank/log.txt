@@ -218,3 +218,58 @@
 2018-08-20 14:04:17 INFO  LoginScreen:35 - user succefully logged in
 2018-08-20 14:04:17 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
 2018-08-20 14:04:21 TRACE BankAccountDaoJdbc:107 - 1 account updated
+2018-08-20 14:07:34 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:07:37 TRACE LoginScreen:23 - username = register
+2018-08-20 14:07:50 ERROR UserDaoJdbc:40 - ERROR: column "age" of relation "users" does not exist
+  Position: 36
+2018-08-20 14:07:50 ERROR UserDaoJdbc:42 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 14:07:50 ERROR UserDaoJdbc:42 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 14:07:50 ERROR UserDaoJdbc:42 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 14:07:50 ERROR UserDaoJdbc:42 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 14:07:50 ERROR UserDaoJdbc:42 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 14:07:50 ERROR UserDaoJdbc:42 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 14:07:50 ERROR UserDaoJdbc:42 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 14:07:50 ERROR UserDaoJdbc:42 - com.project0.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:36)
+2018-08-20 14:07:50 ERROR UserDaoJdbc:42 - com.project0.screens.RegisterUserScreen.start(RegisterUserScreen.java:24)
+2018-08-20 14:07:50 ERROR UserDaoJdbc:42 - com.project0.launcher.Launcher.main(Launcher.java:10)
+2018-08-20 14:07:50 WARN  UserDaoJdbc:44 - failed to create new user
+2018-08-20 14:07:50 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:09:19 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:09:22 TRACE LoginScreen:23 - username = register
+2018-08-20 14:09:34 ERROR UserDaoJdbc:40 - The column index is out of range: 4, number of columns: 3.
+2018-08-20 14:09:34 ERROR UserDaoJdbc:42 - org.postgresql.core.v3.SimpleParameterList.bind(SimpleParameterList.java:65)
+2018-08-20 14:09:34 ERROR UserDaoJdbc:42 - org.postgresql.core.v3.SimpleParameterList.setStringParameter(SimpleParameterList.java:128)
+2018-08-20 14:09:34 ERROR UserDaoJdbc:42 - org.postgresql.jdbc.PgPreparedStatement.bindString(PgPreparedStatement.java:1023)
+2018-08-20 14:09:34 ERROR UserDaoJdbc:42 - org.postgresql.jdbc.PgPreparedStatement.setString(PgPreparedStatement.java:344)
+2018-08-20 14:09:34 ERROR UserDaoJdbc:42 - org.postgresql.jdbc.PgPreparedStatement.setString(PgPreparedStatement.java:328)
+2018-08-20 14:09:34 ERROR UserDaoJdbc:42 - com.project0.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:35)
+2018-08-20 14:09:34 ERROR UserDaoJdbc:42 - com.project0.screens.RegisterUserScreen.start(RegisterUserScreen.java:24)
+2018-08-20 14:09:34 ERROR UserDaoJdbc:42 - com.project0.launcher.Launcher.main(Launcher.java:10)
+2018-08-20 14:09:34 WARN  UserDaoJdbc:44 - failed to create new user
+2018-08-20 14:09:34 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:10:05 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:10:08 TRACE LoginScreen:23 - username = register
+2018-08-20 14:10:18 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-20 14:10:18 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:10:21 TRACE LoginScreen:23 - username = batman
+2018-08-20 14:10:22 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 14:10:22 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 14:10:22 INFO  LoginScreen:36 - welcomeUser [id=3, username=batman, password=null, firstName=bruce, lastName=wayne]
+2018-08-20 14:23:41 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:23:43 TRACE LoginScreen:23 - username = register
+2018-08-20 14:23:50 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-20 14:23:50 TRACE BankAccountDaoJdbc:30 - 1 records created
+2018-08-20 14:23:50 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:39:08 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:39:11 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 14:39:12 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 14:39:13 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 14:39:13 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 14:39:19 TRACE BankAccountDaoJdbc:129 - 1 account updated
+2018-08-20 14:39:40 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:39:42 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 14:39:43 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 14:39:44 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 14:39:44 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 14:39:50 TRACE BankAccountDaoJdbc:129 - 1 account updated
+2018-08-20 14:39:58 TRACE BankAccountDaoJdbc:129 - 1 account updated

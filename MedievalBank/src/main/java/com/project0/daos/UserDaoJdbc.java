@@ -28,7 +28,7 @@ public class UserDaoJdbc implements UserDao {
 	public void createUser(User u) {
 		try (Connection conn = cu.getConnection()) {
 			PreparedStatement ps = conn.prepareStatement(
-					"INSERT INTO users (username, pass, age, firstname, lastname) VALUES (?,?,?,?)");
+					"INSERT INTO users (username, pass, firstname, lastname) VALUES (?,?,?,?)");
 			ps.setString(1, u.getUsername());
 			ps.setString(2, u.getPassword());
 			ps.setString(3, u.getFirstName());

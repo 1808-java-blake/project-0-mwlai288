@@ -16,6 +16,28 @@ import com.project0.beans.User;
 public class BankAccountDaoJdbc implements BankAccountDao {
 	private Logger log = Logger.getRootLogger();
 	private ConnectionUtil cu = ConnectionUtil.cu;
+	
+	@Override
+	public void createBankAccount(int banana) {
+		try (Connection conn = cu.getConnection()) {
+			PreparedStatement ps = conn.prepareStatement(
+					"INSERT INTO account (balance, transaction_history, user_id) VALUES (?,?,?)");
+			ps.setInt(1,0);
+			ps.setString(2, "");
+			ps.setInt(3, banana);
+
+			int recordsCreated = ps.executeUpdate();
+			log.trace(recordsCreated + " records created");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			log.error(e.getMessage());
+			for (StackTraceElement ste : e.getStackTrace()) {
+				log.error(ste);
+			}
+			log.warn("failed to create new user");
+		}
+
+	}
 
 	@Override
 	public BankAccount getBankAccount(int id) {

@@ -47,21 +47,4 @@ public class DepositScreen implements Screen {
 		return new HomeScreen();
 	}
 
-//		BankAccount ba = new BankAccount();
-//		User currentUser = state.getCurrentUser();
-//		BankAccount currentBankAccount = state.getCurrentBankAccount();
-//		int balance;
-//		System.out.println("How much would you like to deposit?");
-//		System.out.println("Balance: " + currentBankAccount.getBalance());
-//		String depositAmount = scan.nextLine();
-//		currentUser.setTransactionHistory(depositAmount);
-//		
-//		System.out.println(depositAmount + currentUser.getBalance());
-//		System.out.println(balance = Integer.valueOf(depositAmount) + currentBankAccount.getBalance());
-//		currentBankAccount.setBalance(balance);
-//		currentUser.setBalance(balance);
-//		ba.setBalance(balance);
-//		ud.updateUser(currentUser);
-//		return this;
-
 }
