@@ -273,3 +273,136 @@
 2018-08-20 14:39:44 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
 2018-08-20 14:39:50 TRACE BankAccountDaoJdbc:129 - 1 account updated
 2018-08-20 14:39:58 TRACE BankAccountDaoJdbc:129 - 1 account updated
+2018-08-20 14:47:23 TRACE BankAccountDaoJdbc:129 - 1 account updated
+2018-08-20 14:59:16 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:59:18 TRACE LoginScreen:23 - username = mwali
+2018-08-20 14:59:19 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 14:59:20 WARN  UserDaoJdbc:66 - failed to find user with provided credentials from the db
+2018-08-20 14:59:20 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:59:21 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 14:59:23 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 14:59:23 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 14:59:23 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 15:00:06 TRACE BankAccountDaoJdbc:129 - 1 account updated
+2018-08-20 15:49:15 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:49:18 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 15:49:19 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 15:49:19 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 15:49:19 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 15:50:22 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:50:23 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 15:50:24 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 15:50:25 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 15:50:25 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 15:50:36 TRACE BankAccountDaoJdbc:129 - 1 account updated
+2018-08-20 15:53:35 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:53:38 TRACE LoginScreen:23 - username = mwlai288
+2018-08-20 15:53:39 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 15:53:40 WARN  UserDaoJdbc:66 - failed to find user with provided credentials from the db
+2018-08-20 15:53:40 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:54:14 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 15:54:16 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 15:54:16 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 15:54:16 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 15:54:45 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:54:47 TRACE LoginScreen:23 - username = mwali
+2018-08-20 15:54:52 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 15:54:52 WARN  UserDaoJdbc:66 - failed to find user with provided credentials from the db
+2018-08-20 15:54:52 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:54:55 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 15:54:56 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 15:54:56 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 15:54:56 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 15:55:41 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:55:44 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 15:55:45 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 15:55:46 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 15:55:46 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 15:55:59 TRACE BankAccountDaoJdbc:129 - 1 account updated
+2018-08-20 15:56:34 TRACE BankAccountDaoJdbc:129 - 1 account updated
+2018-08-20 20:23:24 DEBUG LoginScreen:20 - started login screen
+2018-08-20 20:23:32 TRACE LoginScreen:23 - username = register
+2018-08-20 20:24:06 DEBUG LoginScreen:20 - started login screen
+2018-08-20 20:24:09 TRACE LoginScreen:23 - username = admin
+2018-08-20 20:24:11 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 20:24:11 WARN  UserDaoJdbc:66 - failed to find user with provided credentials from the db
+2018-08-20 20:24:11 DEBUG LoginScreen:20 - started login screen
+2018-08-20 20:25:19 TRACE LoginScreen:23 - username = admin
+2018-08-20 20:25:20 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 20:25:20 WARN  UserDaoJdbc:66 - failed to find user with provided credentials from the db
+2018-08-20 20:25:20 DEBUG LoginScreen:20 - started login screen
+2018-08-20 20:26:44 DEBUG LoginScreen:20 - started login screen
+2018-08-20 20:26:46 TRACE LoginScreen:23 - username = admin
+2018-08-20 20:26:47 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 20:26:48 WARN  UserDaoJdbc:66 - failed to find user with provided credentials from the db
+2018-08-20 20:26:48 DEBUG LoginScreen:20 - started login screen
+2018-08-20 20:29:42 TRACE LoginScreen:23 - username = admin
+2018-08-20 20:29:45 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 20:29:45 WARN  UserDaoJdbc:66 - failed to find user with provided credentials from the db
+2018-08-20 20:51:56 DEBUG LoginScreen:20 - started login screen
+2018-08-20 20:51:58 TRACE LoginScreen:23 - username = admin
+2018-08-20 20:52:01 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 20:52:02 WARN  UserDaoJdbc:66 - failed to find user with provided credentials from the db
+2018-08-20 20:55:53 DEBUG LoginScreen:20 - started login screen
+2018-08-20 20:55:57 TRACE LoginScreen:23 - username = admin
+2018-08-20 20:56:00 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 20:56:01 WARN  UserDaoJdbc:66 - failed to find user with provided credentials from the db
+2018-08-20 20:56:23 DEBUG LoginScreen:20 - started login screen
+2018-08-20 20:56:28 TRACE LoginScreen:23 - username = admin
+2018-08-20 20:56:36 DEBUG LoginScreen:20 - started login screen
+2018-08-20 20:56:42 TRACE LoginScreen:23 - username = admin
+2018-08-20 20:56:44 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 20:56:44 WARN  UserDaoJdbc:66 - failed to find user with provided credentials from the db
+2018-08-20 20:57:06 DEBUG LoginScreen:20 - started login screen
+2018-08-20 20:58:09 DEBUG LoginScreen:20 - started login screen
+2018-08-20 20:58:11 TRACE LoginScreen:23 - username = admin
+2018-08-20 20:58:13 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 20:58:13 WARN  UserDaoJdbc:66 - failed to find user with provided credentials from the db
+2018-08-20 20:59:08 DEBUG LoginScreen:20 - started login screen
+2018-08-20 20:59:10 TRACE LoginScreen:23 - username = admin
+2018-08-20 20:59:12 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 20:59:13 WARN  UserDaoJdbc:66 - failed to find user with provided credentials from the db
+2018-08-20 21:06:11 DEBUG LoginScreen:20 - started login screen
+2018-08-20 21:07:09 DEBUG LoginScreen:20 - started login screen
+2018-08-20 21:07:13 TRACE LoginScreen:23 - username = admin
+2018-08-20 21:07:15 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 21:07:16 WARN  UserDaoJdbc:66 - failed to find user with provided credentials from the db
+2018-08-20 22:33:14 DEBUG LoginScreen:20 - started login screen
+2018-08-20 22:33:16 TRACE LoginScreen:23 - username = admin
+2018-08-20 22:33:18 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 22:33:18 WARN  UserDaoJdbc:66 - failed to find user with provided credentials from the db
+2018-08-20 22:37:13 DEBUG LoginScreen:20 - started login screen
+2018-08-20 22:37:18 TRACE LoginScreen:23 - username = admin
+2018-08-20 22:37:20 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 22:37:20 WARN  UserDaoJdbc:66 - failed to find user with provided credentials from the db
+2018-08-20 22:42:32 DEBUG LoginScreen:20 - started login screen
+2018-08-20 22:42:34 TRACE LoginScreen:23 - username = mwlai
+2018-08-20 22:42:35 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 22:42:36 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 22:42:36 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-20 22:42:50 TRACE BankAccountDaoJdbc:129 - 1 account updated
+2018-08-21 00:41:28 DEBUG LoginScreen:20 - started login screen
+2018-08-21 00:41:31 TRACE LoginScreen:23 - username = admin
+2018-08-21 00:41:34 DEBUG LoginScreen:31 - received users credentials
+2018-08-21 00:41:35 WARN  UserDaoJdbc:64 - failed to find user with provided credentials from the db
+2018-08-21 00:41:49 DEBUG LoginScreen:20 - started login screen
+2018-08-21 00:41:54 TRACE LoginScreen:23 - username = admin
+2018-08-21 00:41:56 DEBUG LoginScreen:31 - received users credentials
+2018-08-21 00:41:56 WARN  UserDaoJdbc:64 - failed to find user with provided credentials from the db
+2018-08-21 00:44:04 DEBUG LoginScreen:20 - started login screen
+2018-08-21 00:44:06 TRACE LoginScreen:23 - username = admin
+2018-08-21 00:44:08 DEBUG LoginScreen:31 - received users credentials
+2018-08-21 00:44:09 WARN  UserDaoJdbc:64 - failed to find user with provided credentials from the db
+2018-08-21 00:45:38 DEBUG LoginScreen:20 - started login screen
+2018-08-21 00:45:39 TRACE LoginScreen:23 - username = admin
+2018-08-21 00:45:41 DEBUG LoginScreen:31 - received users credentials
+2018-08-21 00:45:41 WARN  UserDaoJdbc:64 - failed to find user with provided credentials from the db
+2018-08-21 00:48:15 DEBUG LoginScreen:20 - started login screen
+2018-08-21 00:48:19 TRACE LoginScreen:23 - username = mwlai
+2018-08-21 00:48:20 DEBUG LoginScreen:31 - received users credentials
+2018-08-21 00:48:21 INFO  LoginScreen:35 - user succefully logged in
+2018-08-21 00:48:21 INFO  LoginScreen:36 - welcomeUser [id=1, username=mwlai, password=null, firstName=will, lastName=lai]
+2018-08-21 00:48:28 DEBUG LoginScreen:20 - started login screen
+2018-08-21 00:48:30 TRACE LoginScreen:23 - username = admin
+2018-08-21 00:48:31 DEBUG LoginScreen:31 - received users credentials
+2018-08-21 00:48:32 WARN  UserDaoJdbc:64 - failed to find user with provided credentials from the db

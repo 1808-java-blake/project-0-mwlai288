@@ -1,0 +1,15 @@
+SET SCHEMA 'bank_app';
+
+CREATE TABLE user (
+    user_id SERIAL PRIMARY KEY,
+	  username VARCHAR(10),
+	  pass VARCHAR(10),
+    firstname VARCHAR(15),
+    lastname VARCHAR(15),
+);
+
+CREATE TABLE account (
+   balance INTEGER,
+   transaction_history VARCHAR,
+   user_id INTEGER
+);

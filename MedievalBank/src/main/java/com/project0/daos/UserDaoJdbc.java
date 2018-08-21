@@ -4,8 +4,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
-
 import org.apache.log4j.Logger;
 
 import com.project0.beans.User;
@@ -27,8 +25,8 @@ public class UserDaoJdbc implements UserDao {
 	@Override
 	public void createUser(User u) {
 		try (Connection conn = cu.getConnection()) {
-			PreparedStatement ps = conn.prepareStatement(
-					"INSERT INTO users (username, pass, firstname, lastname) VALUES (?,?,?,?)");
+			PreparedStatement ps = conn
+					.prepareStatement("INSERT INTO users (username, pass, firstname, lastname) VALUES (?,?,?,?)");
 			ps.setString(1, u.getUsername());
 			ps.setString(2, u.getPassword());
 			ps.setString(3, u.getFirstName());
@@ -86,4 +84,28 @@ public class UserDaoJdbc implements UserDao {
 
 	}
 
+	@Override
+	public User findByUsername(String username) {
+		try (Connection conn = cu.getConnection()) {
+			PreparedStatement ps = conn.prepareStatement("SELECT * FROM users WHERE username=? and pass=?");
+			ps.setString(1, username);
+
+			ResultSet rs = ps.executeQuery();
+
+			if (rs.next()) {
+				User u = new User();
+				u.setUsername(rs.getString("username"));
+				u.setId(rs.getInt("user_id"));
+				return u;
+			} else {
+				log.warn("failed to find user with provided credentials from the db");
+				return null;
+			}
+
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
 }

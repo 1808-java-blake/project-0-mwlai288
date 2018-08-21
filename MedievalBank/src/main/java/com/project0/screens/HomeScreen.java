@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Scanner;
 
 import com.project0.beans.BankAccount;
-import com.project0.beans.User;
 import com.project0.daos.BankAccountDao;
 import com.project0.util.AppState;
 
@@ -41,11 +40,11 @@ public class HomeScreen implements Screen {
 			ws.start();
 			break;
 
-//		case "3":
-//			Screen th = new TransactionHistoryScreen();
-//			th.start();
-//			break;
-//
+		case "3":
+			Screen th = new TransactionHistoryScreen();
+			th.start();
+			break;
+
 		case "4":
 			List<BankAccount> bankaccount = ba.findByUserId(state.getCurrentUser().getId());
 			bankaccount.stream().forEach((each) -> {

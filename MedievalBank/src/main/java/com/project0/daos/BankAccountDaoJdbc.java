@@ -10,19 +10,19 @@ import java.util.List;
 import org.apache.log4j.Logger;
 
 import com.project0.beans.BankAccount;
+//import com.project0.beans.User;
 import com.project0.util.ConnectionUtil;
-import com.project0.beans.User;
 
 public class BankAccountDaoJdbc implements BankAccountDao {
 	private Logger log = Logger.getRootLogger();
 	private ConnectionUtil cu = ConnectionUtil.cu;
-	
+
 	@Override
 	public void createBankAccount(int banana) {
 		try (Connection conn = cu.getConnection()) {
-			PreparedStatement ps = conn.prepareStatement(
-					"INSERT INTO account (balance, transaction_history, user_id) VALUES (?,?,?)");
-			ps.setInt(1,0);
+			PreparedStatement ps = conn
+					.prepareStatement("INSERT INTO account (balance, transaction_history, user_id) VALUES (?,?,?)");
+			ps.setInt(1, 0);
 			ps.setString(2, "");
 			ps.setInt(3, banana);
 
@@ -97,7 +97,7 @@ public class BankAccountDaoJdbc implements BankAccountDao {
 	public List<BankAccount> findByUserId(int userId) {
 		try (Connection conn = cu.getConnection()) {
 			List<BankAccount> bankaccount = new ArrayList<>();
-			PreparedStatement ps = conn.prepareStatement("SELECT * FROM bank_account WHERE user_id=?");
+			PreparedStatement ps = conn.prepareStatement("SELECT * FROM account WHERE user_id=?");
 			ps.setInt(1, userId);
 			ResultSet rs = ps.executeQuery();
 			while (rs.next()) {
@@ -138,4 +138,31 @@ public class BankAccountDaoJdbc implements BankAccountDao {
 		return;
 	}
 
+	@Override
+	public BankAccount findByUsername(String username) {
+		try (Connection conn = cu.getConnection()) {
+			PreparedStatement ps = conn.prepareStatement("SELECT user_id FROM user WHERE username=? ");
+			ps.setString(1, username);
+
+			ResultSet rs = ps.executeQuery();
+
+			if (rs.next()) {
+				BankAccount ba = new BankAccount();
+				ba.setBalance(rs.getInt("balance"));
+				ba.setTransactionHistory(rs.getString("transaction_history"));
+				ba.setuserId(rs.getInt("user_id"));
+				return ba;
+			} else {
+				log.warn("failed to find user with provided credentials from the db");
+				return null;
+			}
+
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
 }
+
+//

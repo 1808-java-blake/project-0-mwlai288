@@ -11,7 +11,6 @@ import com.project0.util.AppState;
 
 public class DepositScreen implements Screen {
 	private AppState state = AppState.state;
-	private Logger log = Logger.getRootLogger();
 	private Scanner scan = new Scanner(System.in);
 	private BankAccountDao ba = BankAccountDao.currentBankAccountDao;
 
@@ -23,7 +22,6 @@ public class DepositScreen implements Screen {
 			return new LoginScreen();
 		}
 		try {
-//			
 			currentAccount = ba.getBankAccount(currentUser.getId());
 			state.getCurrentBankAccount();
 			System.out.println(currentAccount);
@@ -37,14 +35,13 @@ public class DepositScreen implements Screen {
 			System.out.println(balance = Integer.valueOf(depositAmount) + currentAccount.getBalance());
 			currentAccount.setBalance(balance);
 			System.out.println(currentAccount.getBalance());
-			ba.updateUser(currentAccount);
-//			
+			ba.updateUser(currentAccount);			
 
 		} catch (NumberFormatException e) {
 			System.out.println("Invalid number");
 		}
 
-		return new HomeScreen();
+		return this;
 	}
 
 }

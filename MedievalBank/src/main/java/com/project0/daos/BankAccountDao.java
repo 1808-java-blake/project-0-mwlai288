@@ -17,5 +17,7 @@ public interface BankAccountDao {
 	void updateUser(BankAccount ba);
 
 	List<BankAccount> findByUserId(int userId);
+	
+	BankAccount findByUsername(String username);
 
 }
